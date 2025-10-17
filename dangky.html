@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3>ĐĂNG KÍ THAM GIA HỘI TRẠI</h3>
+      <form class="DK">
+        <div class="form-group">
+          <label for="name"
+            >Họ tên học sinh <br />
+            <input type="text" placeholder="Nhập họ tên..." id="name" required/> </label
+          ><br />
+          <label for="class"
+            >Lớp: <br /><input
+              type="text"
+              placeholder="VD: 11A1"
+              id="class"
+            required/> </label
+          ><br />
+          <label for="date"
+            >Niên khóa:<br />
+            <select>
+              <option value="">2025-2026</option>
+              <option value="">2024-2025</option>
+              <option value="">2023-2024</option>
+            </select>
+          </label>
+          <br />
+          <label for="night"
+            >Ở lại đêm:<br /><input type="radio" value="Có" id="night" />Có
+            <input type="radio" value="Không" />không
+          </label>
+          <br />
+          <label for="name-fa"
+            >Họ tên cha: <br /><input type="text" placeholder="" id="name-fa"
+          /></label>
+          <br />
+          <label for="job-fa"
+            >Nghề nghiệp cha:<br /><input
+              type="text"
+              placeholder=""
+              id="job-fa"
+          /></label>
+          <br />
+          <label for="name-mom"
+            >Họ tên mẹ:<br /><input type="text" placeholder="" id="name-mom"
+          /></label>
+          <br />
+          <label for="job-mom"
+            >Nghề nghiệp mẹ:<br /><input
+              type="text"
+              placeholder=""
+              id="job-mom"
+          /></label>
+          <br />
+          <label for="check"> <input type="checkbox" id="check" required/>Tôi xác nhận đồng ý tham gia hội
+            trại</label>
+          <br><br>  
+            <div class="container-button">
+              <button class="sent">Gửi đăng kí</button>
+              <button class="reset">Làm lại</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
