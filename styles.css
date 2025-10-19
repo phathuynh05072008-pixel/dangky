@@ -69,11 +69,13 @@ label[for="check"],
     border-radius: 10px;
     color: rgb(163, 114, 209);
   }
-  width: 90%;
-  margin: 0 auto%;
+  align-items: center;
+  justify-content: center;
+  width: 400;
+  margin: 0 auto;
   margin-top: 15px;
   background-color: white;
-  padding: 15px;
+  padding: 10px;
   border-radius: 14px;
   box-shadow: 0 0 5px rgba(0, 0, 0.5);
 }
