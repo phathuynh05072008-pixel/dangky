@@ -71,11 +71,11 @@ label[for="check"],
   }
   align-items: center;
   justify-content: center;
-  width: 400;
+  width: 400px;
   margin: 0 auto;
   margin-top: 15px;
   background-color: white;
-  padding: 10px;
+  padding: 15px;
   border-radius: 14px;
   box-shadow: 0 0 5px rgba(0, 0, 0.5);
 }
