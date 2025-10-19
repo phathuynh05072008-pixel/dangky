@@ -13,13 +13,13 @@ body {
     border-radius: 10px;
     color: rgb(163, 114, 209);
   }
-  width: 80%;
-  margin: 0 auto%;
+  width: 400px;
+  margin: 0 auto;
   margin-top: 15px;
   background-color: white;
   padding: 15px;
   border-radius: 14px;
-  box-shadow: 0 0 5px rgba(0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .form-group input[type="text"],
 select {
@@ -59,9 +59,6 @@ select {
 label[for="check"],
 .gr-radio label {
   font-weight: normal;
-}
-input:hover {
-  border-color: 2px;
 }
 /* --------------end-------------- */
 .container-end {
