@@ -9,21 +9,21 @@
   <body>
     <div class="container">
       <h3>ĐĂNG KÍ THAM GIA HỘI TRẠI</h3>
-      <form class="DK">
+      <form class="DK" action="end.html" target="_blank">
         <div class="form-group">
           <label for="name"
-            >Họ tên học sinh <br />
+            >Họ tên học sinh: <br />
             <input type="text" placeholder="Nhập họ tên..." id="name" required/> </label
           ><br />
           <label for="class"
-            >Lớp: <br /><input
+            >Lớp: <br />
+            <input
               type="text"
               placeholder="VD: 11A1"
               id="class"
             required/> </label
           ><br />
-          <label for="date"
-            >Niên khóa:<br />
+          <label for="date">Niên khóa:<br />
             <select>
               <option value="">2025-2026</option>
               <option value="">2024-2025</option>
@@ -32,8 +32,11 @@
           </label>
           <br />
           <label for="night"
-            >Ở lại đêm:<br /><input type="radio" value="Có" id="night" />Có
-            <input type="radio" value="Không" />không
+            >Ở lại đêm:<br />
+            <div class="gr-radio">
+              <input type="radio" value="Có" id="yes" name="night-option" /><label for="yes">Có</label>
+              <input type="radio" value="Không" id="no" name="night-option" /><label for="no">Không</label>
+            </div>
           </label>
           <br />
           <label for="name-fa"

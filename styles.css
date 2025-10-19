@@ -1,6 +1,5 @@
 body {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: rgb(1, 245, 245);
@@ -25,7 +24,7 @@ body {
 .form-group input[type="text"],
 select {
   width: 100%;
-  margin: 5px auto;
+  margin: 3px auto;
   height: 20px;
   border-radius: 5px;
   border: 0.2px solid;
@@ -38,7 +37,7 @@ select {
 .container-button {
   display: flex;
   justify-content: center;
-  pa
+  align-items: center;
 }
 .sent {
   width: 30%;
@@ -47,7 +46,7 @@ select {
   border-radius: 5px;
   background-color: green;
   color: white;
- margin-right: 10px;
+  margin-right: 30px;
 }
 .reset {
   width: 30%;
@@ -56,4 +55,28 @@ select {
   border-radius: 5px;
   background-color: red;
   color: white;
+}
+label[for="check"],
+.gr-radio label {
+  font-weight: normal;
+}
+input:hover {
+  border-color: 2px;
+}
+/* --------------end-------------- */
+.container-end {
+  h1 {
+    text-align: center;
+    background-color: yellow;
+    padding: 15px;
+    border-radius: 10px;
+    color: rgb(163, 114, 209);
+  }
+  width: 90%;
+  margin: 0 auto%;
+  margin-top: 15px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 14px;
+  box-shadow: 0 0 5px rgba(0, 0, 0.5);
 }
